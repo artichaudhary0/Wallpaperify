@@ -29,8 +29,6 @@ Customize your device's look in seconds by setting any image as your wallpaper w
 ### Demo
 https://github.com/artichaudhary0/wallpaper/assets/71622834/a351e6dc-8757-4158-842c-da5cad5c8e04
 
-da6eca55b
-
 
 
 ### Pictures of application 
