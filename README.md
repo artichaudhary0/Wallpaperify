@@ -27,16 +27,20 @@ Customize your device's look in seconds by setting any image as your wallpaper w
 
 
 ### Demo
-https://github.com/artichaudhary0/DigitalCardApplication/assets/71622834/a03e5fb1-e4ca-41f8-9346-fddda6eca55b
+https://github.com/artichaudhary0/wallpaper/assets/71622834/a351e6dc-8757-4158-842c-da5cad5c8e04
+
+da6eca55b
+
 
 
 ### Pictures of application 
 
 <img src="https://github.com/artichaudhary0/wallpaper/assets/71622834/79d10654-e88b-4589-acb9-5f264a7662b2" width="200"/>
-<img src="https://github.com/artichaudhary0/wallpaper/assets/71622834/025a7ab6-20c5-493d-8660-a03874914b04" width="200"/>
+<img src="https://github.com/artichaudhary0/wallpaper/assets/71622834/61483b01-2794-4af8-957d-3f497886ee9e" width="200"/>  
 <img src="https://github.com/artichaudhary0/wallpaper/assets/71622834/e53ca47b-fe97-4b7a-899b-0589bc68f9cc" width="200"/> 
 <img src="https://github.com/artichaudhary0/wallpaper/assets/71622834/9574e81d-ba11-4900-a280-30382db434d9" width="200"/>  
-<img src="https://github.com/artichaudhary0/wallpaper/assets/71622834/61483b01-2794-4af8-957d-3f497886ee9e" width="200"/>  
+<img src="https://github.com/artichaudhary0/wallpaper/assets/71622834/025a7ab6-20c5-493d-8660-a03874914b04" width="200"/>
+
 
 ## Contribution
 We welcome all contributions. Here's how you can help:
@@ -49,3 +53,5 @@ We welcome all contributions. Here's how you can help:
 
 This app utilizes the Pexels API to fetch high-quality images. We're grateful for their fantastic service.<br>
 Special thanks to the creators of asyncc_wallpaper for simplifying the wallpaper-setting process in our app.
+
+
