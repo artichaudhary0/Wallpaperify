@@ -13,6 +13,29 @@ class SearchBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
+        Text(
+            "Wall Paper",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 26,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+
+           IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: const Padding(
+              padding: EdgeInsets.only(left: 10.0),
+              child: Icon(
+                Icons.arrow_back_ios,
+                color: Colors.black,
+                size: 30,
+              ),
+            ),
+          ),
+
         Expanded(
           child: Padding(
             padding: const EdgeInsets.only(left: 20.0),

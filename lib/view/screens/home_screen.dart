@@ -66,13 +66,14 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           SearchBox(searchController: _searchController),
           const SizedBox(
-            height: 20,
+            height: 10,
           ),
           Container(
             height: 70,
-            margin: EdgeInsets.only(left: 20.0),
+            margin: EdgeInsets.only(left: 15.0),
             width: MediaQuery.of(context).size.width,
             child: ListView.builder(
+              physics: BouncingScrollPhysics(),
               scrollDirection: Axis.horizontal,
               itemCount: categoryModelList.length,
               itemBuilder: ((context, index) => CategoriesBox(
@@ -81,10 +82,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   )),
             ),
           ),
-          Expanded(
+           Expanded(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12.0),
+              padding: const EdgeInsets.symmetric(horizontal: 12.0,vertical: 0),
               child: GridView.builder(
+                physics:const AlwaysScrollableScrollPhysics(),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
                   crossAxisSpacing: 12,
