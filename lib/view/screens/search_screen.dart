@@ -34,20 +34,34 @@ class _SearchScreenState extends State<SearchScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Container(
-            alignment: Alignment.center,
-            margin: const EdgeInsets.symmetric(vertical: 40, horizontal: 10),
-            child: const Text(
-              "Wall Paper",
-              style: TextStyle(
-                color: Colors.black,
-                fontSize: 26,
-                fontWeight: FontWeight.bold,
-              ),
+      appBar: AppBar(
+        toolbarHeight: 70,
+        centerTitle: true,
+        title: const Text(
+          "Wall Paper",
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 26,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        automaticallyImplyLeading: false,
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: const Padding(
+            padding: EdgeInsets.only(left: 10.0),
+            child: Icon(
+              Icons.arrow_back_ios,
+              color: Colors.black,
+              size: 30,
             ),
           ),
+        ),
+      ),
+      body: Column(
+        children: [
           SearchBox(searchController: _searchController),
           const SizedBox(
             height: 20,

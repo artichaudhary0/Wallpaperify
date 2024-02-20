@@ -42,7 +42,6 @@ class ApiOperation {
       searchWallpaper.add(
         WallPaperModel.fromJson(element),
       );
-      print(searchWallpaper);
     });
 
 
